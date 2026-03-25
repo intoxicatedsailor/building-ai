@@ -11,13 +11,11 @@ Alpine Range Guardian is an AI assistant that prevents "range anxiety" for e-bik
 * **Personal Motivation:** As I move from a maritime career to the Austrian hills, I want to rely on my Specialized Vado 5.0 as a primary sustainable vehicle.
 
 ## Data and AI techniques
-* **Data Sources:** * E-bike sensors (Watts, cadence, battery voltage) via the Specialized Mission Control API.
-    * GPS and Digital Elevation Models (DEM) for slope calculation.
-* **AI Techniques:** * Regression Models to predict energy consumption based on incline.
-    * Neural Networks to learn the rider's unique effort profile and fatigue levels over time.
+* **Data Sources:** E-bike sensors (Watts, cadence, battery voltage) via the Specialized Mission Control API and GPS elevation models.
+* **AI Techniques:** Regression Models to predict energy consumption and Neural Networks to learn the rider's unique effort profile.
 
 ## How is it used?
-The solution is integrated into a smartphone app or the bike's head unit. The rider enters a destination, and the AI suggests the optimal support mode to ensure they reach their destination.
+The solution is integrated into a smartphone app. The rider enters a destination, and the AI suggests the optimal support mode to ensure they reach their destination safely.
 
 ## Challenges
 * Environment: Wind speed and weather are hard to predict.
